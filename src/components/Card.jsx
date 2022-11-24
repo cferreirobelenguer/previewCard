@@ -10,8 +10,8 @@ export const Card=()=>{
                 <div className="card1_title">
                     <h1>SEDANS</h1>
                 </div>
-                <div>
-
+                <div className="card1_subtitle">
+                    <p>Choose a sedan for its<br></br>affordability and excelent fuel economy. Ideal for<br></br>cruising in the city or on<br></br>your next road trip</p>
                 </div>
                 <div className="card1_button">
                     <button className="button1">Learn more</button>
@@ -24,8 +24,8 @@ export const Card=()=>{
                 <div className="card2_title">
                     <h1>SUVS</h1>
                 </div>
-                <div>
-
+                <div className="card2_subtitle">
+                    <p>Take on SUV for its spacious<br></br>interior, power, and<br></br>versatility. Perfect for your<br></br>next family vacation and<br></br>off-road adventures</p>
                 </div>
                 <div className="card2_button">
                     <button className="button2">Learn more</button>
@@ -38,8 +38,8 @@ export const Card=()=>{
                 <div className="card3_title">
                     <h1>LUXURY</h1>
                 </div>
-                <div>
-
+                <div className="card3_subtitle">
+                    <p>Cruise in the best car brands<br></br>without the bloated prices.<br></br>Enjoy  the enhanced comfort<br></br>of a luxury rental and arrive<br></br>in style.</p>
                 </div>
                 <div className="card3_button">
                     <button className="button3">Learn more</button>

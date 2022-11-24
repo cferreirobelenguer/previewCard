@@ -1,5 +1,6 @@
 @import './color/color.scss';
 @import './function/function.scss';
+@import './responsive/responsive.scss';
 //fonts
 @font-face {
     font-family: "lexendeca";
@@ -24,7 +25,6 @@
     align-items: flex-start;
     .card1{
         padding-top: 20px;
-        border-top-left-radius: 10px;
         background-color: $orange;
         .card1_logo{
             @include logoStyle;
@@ -34,7 +34,7 @@
             @include titleStyle;
         }
         .card1_button{
-            padding: 20px 20px 50px 20px;
+            padding: 20px 20px 50px 30px;
             text-align: left;
         }
     }
@@ -55,7 +55,6 @@
     }
     .card3{
         padding-top: 20px;
-        border-top-right-radius:10px;
         background-color: $veryDarkCyan;
         .card3_logo{
             @include logoStyle;
@@ -84,6 +83,58 @@
     @include buttonStyle;
     color:$veryDarkCyan
 }
+.card1_subtitle{
+    font-family:"lexendeca";
+    @include cardSubtitle;
+}
+.card1_subtitle{
+    font-family:"lexendeca";
+    @include cardSubtitle;
+}
+.card2_subtitle{
+    font-family:"lexendeca";
+    @include cardSubtitle;
+}
+.card3_subtitle{
+    font-family:"lexendeca";
+    @include cardSubtitle;
+}
+//card component desktop
+@include desktop_desing{
+    .card1{
+        border-top-left-radius: 10px;
+    }
+    .card3{
+        border-top-right-radius:10px;
+    }
+    
+}
+// card component responsive
+
+@include responsive_desing{
+    #card_container{
+        margin-top:50px;
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: flex-start;
+        margin-bottom:50px;
+    }
+    .card1{
+        padding-top: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: $orange;
+    }
+    .card3{
+        padding-top: 20px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius:10px;
+        border-bottom-left-radius: 10px;
+        background-color: $veryDarkCyan;
+    }
+}
+
 
 
 

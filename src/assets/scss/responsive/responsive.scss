@@ -1,1 +1,13 @@
 //media queries
+
+@mixin responsive_desing{
+    @media (max-width: 876px) {
+        @content;
+    }
+}
+
+@mixin desktop_desing{
+    @media (max-width: 2000px) {
+        @content;
+    }
+}
