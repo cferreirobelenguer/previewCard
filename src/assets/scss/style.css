@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "lexendeca";
+  src: url("../fonts/LexendDeca-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "bigshoulderdisplay";
+  src: url("../fonts/BigShouldersDisplay-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+#card_container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: flex-start;
+}
+#card_container .card1 {
+  padding-top: 20px;
+  border-top-left-radius: 10px;
+  background-color: hsl(31deg, 77%, 52%);
+}
+#card_container .card1 .card1_logo {
+  text-align: left;
+  padding: 20px 20px 10px 20px;
+}
+#card_container .card1 .card1_title {
+  font-family: "bigshoulderdisplay";
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#card_container .card1 .card1_button {
+  padding: 20px 20px 50px 20px;
+  text-align: left;
+}
+#card_container .card2 {
+  padding-top: 20px;
+  background-color: hsl(184deg, 100%, 22%);
+}
+#card_container .card2 .card2_logo {
+  text-align: left;
+  padding: 20px 20px 10px 20px;
+}
+#card_container .card2 .card2_title {
+  font-family: "bigshoulderdisplay";
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#card_container .card2 .card2_button {
+  padding: 20px 20px 50px 20px;
+  text-align: left;
+}
+#card_container .card3 {
+  padding-top: 20px;
+  border-top-right-radius: 10px;
+  background-color: hsl(179deg, 100%, 13%);
+}
+#card_container .card3 .card3_logo {
+  text-align: left;
+  padding: 20px 20px 10px 20px;
+}
+#card_container .card3 .card3_title {
+  font-family: "bigshoulderdisplay";
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#card_container .card3 .card3_button {
+  padding: 20px 20px 50px 20px;
+  text-align: left;
+}
+
+.button1 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  font-weight: 400;
+  color: hsl(31deg, 77%, 52%);
+}
+
+.button2 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  font-weight: 400;
+  color: hsl(184deg, 100%, 22%);
+}
+
+.button3 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  font-weight: 400;
+  color: hsl(179deg, 100%, 13%);
+}
+
+/*# sourceMappingURL=style.css.map */

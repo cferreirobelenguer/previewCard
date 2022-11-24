@@ -1,0 +1,90 @@
+@import './color/color.scss';
+@import './function/function.scss';
+//fonts
+@font-face {
+    font-family: "lexendeca";
+    src: url("../fonts/LexendDeca-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "bigshoulderdisplay";
+    src: url("../fonts/BigShouldersDisplay-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+//card component Desktop
+#card_container{
+    
+    margin-top:50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    .card1{
+        padding-top: 20px;
+        border-top-left-radius: 10px;
+        background-color: $orange;
+        .card1_logo{
+            @include logoStyle;
+        }
+        .card1_title{
+            font-family: "bigshoulderdisplay";
+            @include titleStyle;
+        }
+        .card1_button{
+            padding: 20px 20px 50px 20px;
+            text-align: left;
+        }
+    }
+    .card2{
+        padding-top: 20px;
+        background-color: $darkCyan;
+        .card2_logo{
+            @include logoStyle;
+        }
+        .card2_title{
+            font-family: "bigshoulderdisplay";
+            @include titleStyle;
+        }
+        .card2_button{
+            padding: 20px 20px 50px 20px;
+            text-align: left;
+        }
+    }
+    .card3{
+        padding-top: 20px;
+        border-top-right-radius:10px;
+        background-color: $veryDarkCyan;
+        .card3_logo{
+            @include logoStyle;
+        }
+        .card3_title{
+            font-family: "bigshoulderdisplay";
+            @include titleStyle;
+        }
+        .card3_button{
+            padding: 20px 20px 50px 20px;
+            text-align: left;
+            
+        }
+    }
+
+}
+.button1{
+    @include buttonStyle;
+    color:$orange;
+}
+.button2{
+    @include buttonStyle;
+    color:$darkCyan;
+}
+.button3{
+    @include buttonStyle;
+    color:$veryDarkCyan
+}
+
+
+
+
