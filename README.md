@@ -1,6 +1,8 @@
 # Frontend Mentor - 3-column preview card component
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
+![image](https://user-images.githubusercontent.com/88061350/203871986-a042cd9e-d517-4f04-b5f9-3c4220df6606.png)
+
 
 ## Tecnologías 🚀
 
@@ -14,5 +16,4 @@
 
 ### Vista responsive
 
-![localhost_3000_](https://user-images.githubusercontent.com/88061350/203871901-68b9894b-c6bf-47a3-9f14-ce6b29fe562c.png)
-
+![image](https://user-images.githubusercontent.com/88061350/203871956-d51bcb58-955a-4f89-a89e-84b4085fc194.png)
